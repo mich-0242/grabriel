@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Amasis MT Pro ;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-panel {
+  width: 45%;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.text-box {
+  font-size: 22px;
+  white-space: pre-wrap;
+  margin-bottom: 40px;
+}
+
+.timer-box {
+  font-size: 18px;
+}
+
+.divider {
+  width: 2px;
+  background-color: #ccc;
+}
+
+.right-panel {
+  width: 55%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#canvas {
+  width: 100%;
+  height: 500px; /* ajusta según el diseño */
+  display: block;
+}
+
+#audio-player {
+  margin-top: 20px;
+  width: 80%;
+}
